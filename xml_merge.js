@@ -1,15 +1,3 @@
-/* eslint-disable no-plusplus */
-/* eslint-disable operator-assignment */
-/* eslint-disable object-shorthand */
-/* eslint-disable no-else-return */
-/* eslint-disable prefer-arrow-callback */
-/* eslint-disable func-names */
-/* eslint-disable prefer-const */
-/* eslint-disable camelcase */
-/* eslint-disable prefer-destructuring */
-/* eslint-disable no-underscore-dangle */
-/* eslint-disable radix */
-/* eslint-disable */
 const convert = require("xml-js");
 const fs = require("fs");
 
@@ -124,12 +112,10 @@ function readXML(path) {
 }
 
 function getCloverCount(cloverJson) {
-  // eslint-disable-next-line prefer-const
   let clover_success_margin = 10;
   let clover_sucess_count = 0;
   let clover_err_count = 0;
   const metrics = cloverJson.coverage.project.metrics;
-  // eslint-disable-next-line prefer-const
   let uncoveredStatements =
     parseInt(metrics._attributes.statements) -
     parseInt(metrics._attributes.coveredstatements);
@@ -188,7 +174,7 @@ function getlintCount(lintJson) {
   let lint_success_marigin = 5;
   let lint_success_count = 0;
   const testsuite_count = lintJson.testsuites.testsuite;
-  for (let i = 0; i < testsuite_count.length; i++) {
+  for (i = 0; i < testsuite_count.length; i++) {
     err_count =
       err_count + parseInt(lintJson.testsuites.testsuite[i]._attributes.errors);
   }
@@ -228,7 +214,6 @@ function getUnitCount(unitJson, cloverResults, lintResults) {
 
   let totalfailure = failurelintCount + failurecloverCount;
   let successUnitClover = successcloverCount;
-  // eslint-disable-next-line no-unused-vars
   let failureUnitClover = failurecloverCount;
   const unitJsonResult = JSON.parse(JSON.stringify(unitJson));
   unitJsonResult.testsuites.testsuite.push(CREATE_TEST_SUITE);
