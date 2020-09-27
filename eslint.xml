@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/bootstrap.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/bootstrap.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/AccessoriesController.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/AccessoriesController.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/CarsController.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/CarsController.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/ManufacturerController.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/ManufacturerController.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/SegmentController.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/SegmentController.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/VarientController.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/VarientController.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Accessories.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Accessories.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Cars.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Cars.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Manufacturer.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Manufacturer.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Segment.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Segment.test.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Varient.test.js">
+<testcase time="0" name="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/models/Varient.test.js" />
+</testsuite>
+</testsuites>
