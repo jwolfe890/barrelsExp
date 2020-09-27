@@ -48,7 +48,31 @@ describe("Car Controller", function () {
       });
 
 
-      
-  });
+      it("post /car", function (done) {
+        var agent = supertest.agent(sails.hooks.http.app);
+    
+        let car = {
+          name: "Tata Nexon",
+          segment: 1,
+          description: "This is a dummy text",
+          manufacturer: 1,
+          variants: [1],
+          accessories: [1],
+        }
+    
+        agent
+          .put("/car/1")
+          .send()
+          .expect(400)
+          .end(function (err, result) {
+            if (err) {
+              done(err);
+            } else {
+              [].length.should.be.aboveOrEqual(0);
+              done();
+            }
+          });
 
+        })
+      })
 });
