@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.23700000000000002" tests="25" failures="0">
-    <testsuite name="Root Suite" timestamp="2020-09-27T03:33:06" tests="0" failures="0" time="0"/>
-    <testsuite name="Accessories Controller" timestamp="2020-09-27T03:33:08" tests="6" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/AccessoriesController.test.js" failures="0" time="0.10500000000000001">
-        <testcase name="Accessories Controller get /accessories" time="0.055" classname="get /accessories"/>
+<testsuites name="Mocha Tests" time="0.20500000000000002" tests="23" failures="0">
+    <testsuite name="Root Suite" timestamp="2020-09-27T03:36:14" tests="0" failures="0" time="0"/>
+    <testsuite name="Accessories Controller" timestamp="2020-09-27T03:36:16" tests="6" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/AccessoriesController.test.js" failures="0" time="0.10200000000000001">
+        <testcase name="Accessories Controller get /accessories" time="0.051" classname="get /accessories"/>
         <testcase name="Accessories Controller post /accessories" time="0.023" classname="post /accessories"/>
-        <testcase name="Accessories Controller update /accessories" time="0.009" classname="update /accessories"/>
+        <testcase name="Accessories Controller update /accessories" time="0.011" classname="update /accessories"/>
+        <testcase name="Accessories Controller update /accessories" time="0.007" classname="update /accessories"/>
         <testcase name="Accessories Controller update /accessories" time="0.006" classname="update /accessories"/>
-        <testcase name="Accessories Controller update /accessories" time="0.006" classname="update /accessories"/>
-        <testcase name="Accessories Controller update /variant" time="0.006" classname="update /variant"/>
+        <testcase name="Accessories Controller update /variant" time="0.004" classname="update /variant"/>
     </testsuite>
-    <testsuite name="Car Controller" timestamp="2020-09-27T03:33:08" tests="3" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/CarsController.test.js" failures="0" time="0.038">
+    <testsuite name="Car Controller" timestamp="2020-09-27T03:36:16" tests="1" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/CarsController.test.js" failures="0" time="0.007">
         <testcase name="Car Controller get /car" time="0.007" classname="get /car"/>
-        <testcase name="Car Controller post /car" time="0.008" classname="post /car"/>
-        <testcase name="Car Controller search /car" time="0.023" classname="search /car"/>
     </testsuite>
-    <testsuite name="Manufacturer Controller" timestamp="2020-09-27T03:33:08" tests="5" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/ManufacturerController.test.js" failures="0" time="0.028">
-        <testcase name="Manufacturer Controller get /manufacturer" time="0.006" classname="get /manufacturer"/>
+    <testsuite name="Manufacturer Controller" timestamp="2020-09-27T03:36:16" tests="5" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/ManufacturerController.test.js" failures="0" time="0.03">
+        <testcase name="Manufacturer Controller get /manufacturer" time="0.007" classname="get /manufacturer"/>
         <testcase name="Manufacturer Controller post /manufacturer" time="0.005" classname="post /manufacturer"/>
-        <testcase name="Manufacturer Controller update /manufacturer" time="0.007" classname="update /manufacturer"/>
-        <testcase name="Manufacturer Controller update /manufacturer" time="0.005" classname="update /manufacturer"/>
-        <testcase name="Manufacturer Controller update /manufacturer" time="0.005" classname="update /manufacturer"/>
+        <testcase name="Manufacturer Controller update /manufacturer" time="0.006" classname="update /manufacturer"/>
+        <testcase name="Manufacturer Controller update /manufacturer" time="0.006" classname="update /manufacturer"/>
+        <testcase name="Manufacturer Controller update /manufacturer" time="0.006" classname="update /manufacturer"/>
     </testsuite>
-    <testsuite name="Segment Controller" timestamp="2020-09-27T03:33:08" tests="5" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/SegmentController.test.js" failures="0" time="0.03">
+    <testsuite name="Segment Controller" timestamp="2020-09-27T03:36:16" tests="5" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/SegmentController.test.js" failures="0" time="0.032">
         <testcase name="Segment Controller get /segment" time="0.007" classname="get /segment"/>
-        <testcase name="Segment Controller post /segment" time="0.005" classname="post /segment"/>
-        <testcase name="Segment Controller update /segment" time="0.006" classname="update /segment"/>
+        <testcase name="Segment Controller post /segment" time="0.006" classname="post /segment"/>
+        <testcase name="Segment Controller update /segment" time="0.007" classname="update /segment"/>
         <testcase name="Segment Controller update /segment" time="0.006" classname="update /segment"/>
         <testcase name="Segment Controller update /segment" time="0.006" classname="update /segment"/>
     </testsuite>
-    <testsuite name="Variant Controller" timestamp="2020-09-27T03:33:08" tests="6" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/VarientController.test.js" failures="0" time="0.036">
-        <testcase name="Variant Controller get /variant" time="0.009" classname="get /variant"/>
-        <testcase name="Variant Controller post /variant" time="0.006" classname="post /variant"/>
-        <testcase name="Variant Controller update /variant" time="0.007" classname="update /variant"/>
+    <testsuite name="Variant Controller" timestamp="2020-09-27T03:36:16" tests="6" file="/Users/johnwolfe/Development/sailsJSApp/sails2/d9848f2a-d030-4d29-9e2d-661261522a24/test/controllers/VarientController.test.js" failures="0" time="0.034">
+        <testcase name="Variant Controller get /variant" time="0.007" classname="get /variant"/>
+        <testcase name="Variant Controller post /variant" time="0.007" classname="post /variant"/>
+        <testcase name="Variant Controller update /variant" time="0.006" classname="update /variant"/>
         <testcase name="Variant Controller update /variant" time="0.006" classname="update /variant"/>
         <testcase name="Variant Controller update /variant" time="0.005" classname="update /variant"/>
         <testcase name="Variant Controller update /variant" time="0.003" classname="update /variant"/>
